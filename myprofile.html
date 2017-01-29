@@ -2,183 +2,74 @@
 <html>
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>My Profile</title>
+  <title>My Profile</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/business-casual.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/business-casual.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
 
 </head>
 <body>
-   <!DOCTYPE html>
-<html>
-<head>
+  <!-- Navigation -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+      <div class="navbar-header">
 
-    <title>Add Friends</title>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+        <a class="navbar-brand" href="index.html"></a>
+      </div>
 
-    <!-- Custom CSS -->
-    <link href="css/business-casual.css" rel="stylesheet">
+      <div class="collapse navbar-collapse" >
+        <form class="navbar-form" role="login">
+          <button type="button" class="btn btn-default" aria-label="Left Align">
+            <a href="index.html"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span> </a>
+          </button>
+          <div class="form-group">
+            <a href="errands.html"> <button type="button" class="btn btn-info">Errands</button> </a>
+            <a href="friends.html"> <button type="button" class="btn btn-info">Friends List</button> </a>
+            <a href="myprofile.html"> <button type="button" class="btn btn-info">My Profile</button> </a>
+          </div>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-<body>
-<!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-
-            <div class="navbar-header">
+        </form>
+      </div>
+    </div>
+  </nav>
 
 
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html"></a>
-            </div>
-
-            <div class="collapse navbar-collapse" >
-                <form class="navbar-form" role="login">
-                <button type="button" class="btn btn-default" aria-label="Left Align">
-                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-                </button>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="I need help with...">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Add</button>
-                </form>
-            </div>
-
-
-        <!-- /.container -->
-        </div>
-
-    </nav>
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-    <div>&nbsp;</div>
-        <div class="brand">Add Friends</div>
-  <script type="text/javascript" src="functions.js"></script>
-  <script type="text/javascript">
-    window.onload = function() {
-      console.log("hello vanya")
-      hello();
-    }
-  </script>
-
-  <center>
-  
-    <p>
-      <button type="button" class="btn btn-lg btn-default">UPLOAD IMAGE</button>
-    </p>
-    <img src="http://www.qrstuff.com/images/sample.png" style="width:200px;height:200px">
-    <p> </p>
-    <p>
-      <button type="button" class="btn btn-lg btn-default">ADD</button>
-    </p>
-    <p>
-      <button type="button" class="btn btn-lg btn-default">Connect with Facebook</button>
-    </p>
-    <p>
-      <button type="button" class="btn btn-lg btn-default">Connect with Email</button>
-    </p>
-  </center>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>My Profile</h1>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
-<!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-    <div>&nbsp;</div>
-        <div class="brand">My Profile</div>
-  <script type="text/javascript" src="functions.js"></script>
-  <script type="text/javascript">
-    window.onload = function() {
-      console.log("hello vanya")
-      hello();
-    }
-  </script>
-  <center>
-
-<p>
-<button type="button" class="btn btn-lg btn-default">Manage Account</button>
-</p>
- <table>
-  <tr>
-    <th>First Name</th>
-    <td>Spongebob</td>
-  </tr
-   <tr>
-    <th>Last Name</th>
-    <td>Squarepants</td>
-  </tr>
-   <tr>
-    <th>Username</th>
-    <td>bobthesponge</td>
-  </tr>
-   <tr>
-    <th>Address</th>
-    <td>123 Main Street, Fremont, CA</td>
-  </tr>
-   <tr>
-    <th>Phone Number</th>
-    <td>(408)248-2849</td>
-  </tr>
-   <tr>
-    <th>Security Question    </th>
-    <td>   What's my mom's name?</td>
-  </tr>
- <tr>
-    <th>Security Answer</th>
-    <td>Margaret Squarepants</td>
-  </tr>
-  </table> 
-  <p> </p>
-  <a href="busybee_signin.html"> <button type="button" class="btn btn-lg btn-default">Sign Out</button></a>
-  <p>
-  <p> </p>
-<a href="busybee_pending.html"><button type="button" class="btn btn-lg btn-default">Errands</button></a> <a href="busybee_friends.html"><button type="button" class="btn btn-lg btn-default">Friends</button></a> <button type="button" class="btn btn-lg btn-default">My Profile</button>
-</p>
-</center></body>
